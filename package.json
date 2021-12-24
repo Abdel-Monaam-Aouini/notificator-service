@@ -1,0 +1,29 @@
+{
+  "name": "multi-tenant-nodejs",
+  "version": "1.0.0",
+  "description": "Notification module with abstract PubSub and RabbitMQ driver",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "jest --testPathPattern=tests/* --coverageDirectory=coverage/ --coverage --runInBand --testTimeout=35000 --forceExit  --silent",
+    "notify": "node examples/notificator/notify.js",
+    "receive": "node examples/notificator/receive.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "notificator",
+    "pubsub"
+  ],
+  "author": "AbdelMonaam Aouini",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "async": "^3.2.2",
+    "child_process": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jest": "^27.4.5"
+  }
+}
