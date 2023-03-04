@@ -19,7 +19,7 @@
   "author": "AbdelMonaam Aouini",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.8.0",
+    "amqplib": "^0.10.3",
     "async": "^3.2.2",
     "child_process": "^1.0.2",
     "dotenv": "^16.0.3",
